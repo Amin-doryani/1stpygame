@@ -15,8 +15,8 @@ screen = pygame.display.set_mode((screen_w, screen_h))
 pygame.display.set_caption("fstgame")
 
 #sounds
-pygame.mixer.music.load("music/got.wav")
-pygame.mixer.music.play(-1,0.0,2000)
+# pygame.mixer.music.load("music/got.wav")
+# pygame.mixer.music.play(-1,0.0,2000)
 # #player
 player1 = Player(50,50,100,100,100)
 shots = []
