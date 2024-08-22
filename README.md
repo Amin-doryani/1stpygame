@@ -40,8 +40,11 @@ then I got the seconds now with help of datetime.. and check if  (seconds % 2 = 
 I got a random number from the numberslist and check if (the number % 2 = 0) then create the shot object and add it to a list then display it... yes it's a chanse of somthing like 0.5% to got 2 from the list.. BUUUUT the idea is that we don't loop every 1s.. we loop a lot and we got a good amonts of shots
 #
 ![image7](stgame/images/forgithub/shotscode.jpg)
-
-
+## To add a Background Sound
+1.create a music folder in the stgame
+2.add to music a ".wav" sound (u can set the sound name got.wav)
+3.got to main.py got to #sounds uncomment line 22 and 23 
+4. change the got.wav to the name of the sound on your music folder
 
 
 
