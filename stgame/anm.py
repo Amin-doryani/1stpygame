@@ -1,4 +1,4 @@
-class Shot:
+class Anm:
     def __init__(self, w,h,x,y,speed):
         
         self.w = w
@@ -36,4 +36,17 @@ class Shot:
     def setspeed(self,speed):
         self.speed =speed
     
-    
+    def chnagepos(self):
+        i = self.getx()
+        speed = self.getspeed()
+        if speed > 0:
+            if (i>=1):
+                self.setx((i+0.1))
+            if i>=1100:
+                self.setspeed(speed * (-1))
+        if speed < 0:
+            if (i<=1200):
+                self.setx((i-0.1))
+            if i <= 10:
+                self.setspeed(speed * (-1))
+            

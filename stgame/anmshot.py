@@ -1,4 +1,4 @@
-class Shot:
+class Anmshot:
     def __init__(self, w,h,x,y,speed):
         
         self.w = w
@@ -36,4 +36,5 @@ class Shot:
     def setspeed(self,speed):
         self.speed =speed
     
-    
+
+        
