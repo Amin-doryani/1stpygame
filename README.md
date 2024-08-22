@@ -1,7 +1,8 @@
 # My 1st Pygame.
-# Vidio From Youtube
+# Video From Youtube
 
-[![Watch the video](https://img.youtube.com/watch?v=5w4xXKHMCOw.jpg)](https://youtu.be/5w4xXKHMCOw)
+[![Watch the video](https://img.youtube.com/vi/5w4xXKHMCOw/hqdefault.jpg)](https://youtu.be/5w4xXKHMCOw)
+
 # To install the project
 You can simply install it, or use this command (you'll need Python and Git).
 ```bash
