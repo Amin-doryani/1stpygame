@@ -74,7 +74,7 @@ while run:
             if event.key == pygame.K_RIGHT:
                 changeplayer_x(player1,-1)
             if event.key == pygame.K_SPACE:
-                shot1 = Shot(20,20,player1.getx()+45,player1.gety(),0.9)
+                shot1 = Shot(20,20,player1.getx()+45,player1.gety(),1)
                 shots.append(shot1)
             
 
@@ -111,7 +111,7 @@ while run:
             Anmshot1 = Anmshot(20,20,anm.getx()+65,anm.gety()+130,1)
             anmshots.append(Anmshot1)
     for anmshot in anmshots:
-        anmshot.sety(anmshot.gety()+0.5)
+        anmshot.sety(anmshot.gety()+1)
         if anmshot.gety() > 720:
             anmshots.remove(anmshot)
         # pygame.draw.rect(screen, "green", [ anmshot.getx(), anmshot.gety(), anmshot.getw(), anmshot.geth()])
