@@ -1,6 +1,6 @@
 # My 1st Pygame.
 # to install the project
-You can just install it or use this commande ( u will need pythong and git)
+You can just install it or use this commande ( u will need python and git)
 ```bash
 git clone https://github.com/Amin-doryani/1stpygame
 ```
@@ -47,7 +47,7 @@ I got a random number from the numberslist and check if (the number % 2 = 0) the
 #
 3.got to main.py got to #sounds uncomment line 22 and 23 .
 #
-4. change the got.wav to the name of the sound on your music folder.
+4.change the got.wav to the name of the sound on your music folder.
 
 
 
