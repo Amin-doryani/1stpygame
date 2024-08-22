@@ -1,4 +1,7 @@
 # My 1st Pygame.
+# Vidio From Youtube
+
+[![Watch the video](https://img.youtube.com/watch?v=5w4xXKHMCOw.jpg)](https://youtu.be/5w4xXKHMCOw)
 # To install the project
 You can simply install it, or use this command (you'll need Python and Git).
 ```bash
@@ -48,7 +51,5 @@ I got a random number from the numberslist and check if (the number % 2 = 0) the
 3.got to main.py got to #sounds uncomment line 22 and 23 .
 #
 4.change the got.wav to the name of the sound on your music folder.
-
-
 
 
