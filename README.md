@@ -12,7 +12,7 @@ image 3
 2nd we set the game loop.
 if the QUIT clicked we quit the game of cours.
 if the K_DOWN,up,left,right we change y  or the x of the player by a changeplayer_y and changeplayer_x  function that need the  Player object and and 1 (for the left and up) or -1 (for the right and down).
-![image1](stgame/images/forgithub/chaangeplayer.jpg)
+![image1](stgame/images/forgithub/changeplayer.jpg)
 
 
 
