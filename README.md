@@ -41,10 +41,10 @@ I got a random number from the numberslist and check if (the number % 2 = 0) the
 #
 ![image7](stgame/images/forgithub/shotscode.jpg)
 ## To add a Background Sound
-1.create a music folder in the stgame
-2.add to music a ".wav" sound (u can set the sound name got.wav)
-3.got to main.py got to #sounds uncomment line 22 and 23 
-4. change the got.wav to the name of the sound on your music folder
+1.create a music folder in the stgame .
+2.add to music a ".wav" sound (u can set the sound name got.wav) .
+3.got to main.py got to #sounds uncomment line 22 and 23 .
+4. change the got.wav to the name of the sound on your music folder.
 
 
 
