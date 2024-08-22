@@ -1,6 +1,6 @@
 # My 1st Pygame.
-# to install the project
-You can just install it or use this commande ( u will need python and git)
+# To install the project
+You can simply install it, or use this command (you'll need Python and Git).
 ```bash
 git clone https://github.com/Amin-doryani/1stpygame
 ```
