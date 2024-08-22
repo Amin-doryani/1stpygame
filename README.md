@@ -12,6 +12,8 @@ git clone https://github.com/Amin-doryani/1stpygame
 In this game we have 4 classes Player and is the fighter image ,Shot and it's the bullets of the player,Anm and it's the Bigfighter and Anmshot is Bigfighter Shots.
 ![image1](stgame/images/forgithub/projectimg.jpg)
 #
+![image1](stgame/images/forgithub/gameimg.jpg)
+#
 this is the classes, and  for evrey class we need w,h,x,y and speed(for the Anm the Speed it's just 1 or -1 just to check if it's on the left or the right and change the to redirect it with help of changepos (image 3)).
 #
 ![image2](stgame/images/forgithub/classes.jpg)
