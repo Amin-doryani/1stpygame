@@ -24,11 +24,11 @@ Every time we click in the space key we create a new bullet object with x and y 
 #
 ![image6](stgame/images/forgithub/shots.jpg)
 #
-#how I display the images!
+# how I display the images!
 #
 1st I was geting the object  attributes and drawin a rect there with x,y,w,h of the object (like the 1st comment in the image 6) then commented it and draw an image there.
 #
-#Anmshots !
+# Anmshots !
 for the player shots It was easy.. when the space button clicked create a shot add it to list loop in the list change the x of every shot and display them.
 but for the Anmshots I don't have a key that will be clicked.. so I did this (image7) 1st I creat a list that have somthing like 198 numbern and  there is just one number that (number % 2 = 0) and it's 2.
 then I got the seconds now with help of datetime.. and check if  (seconds % 2 = 0) and if it's.
