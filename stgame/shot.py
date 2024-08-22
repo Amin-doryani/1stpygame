@@ -1,11 +1,13 @@
 class Shot:
-    def __init__(self, w,h,x,y,speed):
+    def __init__(self, w,h,x,y,speed,lived,added):
         
         self.w = w
         self.h = h
         self.x = x
         self.y = y
         self.speed = speed
+        self.lived = lived
+        self.added = added
         
 
     
@@ -35,5 +37,13 @@ class Shot:
         return self.speed
     def setspeed(self,speed):
         self.speed =speed
-    
-    
+    #leved
+    def getlived(self):
+        return self.lived
+    def setlived(self,lived):
+        self.lived =lived
+    #added
+    def getadded(self):
+        return self.added
+    def setadded(self,added):
+        self.added =added
