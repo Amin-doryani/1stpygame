@@ -1,11 +1,12 @@
 class Player:
-    def __init__(self, w,h,x,y,speed):
+    def __init__(self, w,h,x,y,speed,t):
         
         self.w = w
         self.h = h
         self.x = x
         self.y = y
         self.speed = speed
+        self.t = t
 
     
     #W
@@ -34,4 +35,8 @@ class Player:
         return self.speed
     def setspeed(self,speed):
         self.speed =speed
-    
+    #T
+    def gett(self):
+        return self.t
+    def sett(self,t):
+        self.t = t
